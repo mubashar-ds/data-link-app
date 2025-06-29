@@ -52,8 +52,8 @@ DataLink is a simulated professional networking platform inspired by LinkedIn, d
 4. **Run Producers & Consumers**
 
     ```bash
-    python kafka_ingestion/producer.py
-    python kafka_ingestion/consumer.py
+    python kafka_producer.py
+    python kafka_consumer.py
     ```
 
 5. **Launch FastAPI**
@@ -65,7 +65,7 @@ DataLink is a simulated professional networking platform inspired by LinkedIn, d
 6. **Start Streamlit UI**
 
     ```bash
-    streamlit run frontend/app.py
+    streamlit run streamlit_frontend.py
     ```
 
 ---
@@ -80,4 +80,4 @@ DataLink is a simulated professional networking platform inspired by LinkedIn, d
 
 ## License
 
-MIT License
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this project with proper attribution.
